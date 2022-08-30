@@ -10,14 +10,14 @@ public class Music {
     private double length, ratings;
 
     /**
-     * @param title
-     * @param genre
-     * @param releaseDate
-     * @param lyrics
-     * @param artist
-     * @param writer
-     * @param length
-     * @param ratings
+     * @param title the song title/name
+     * @param genre the song genre
+     * @param releaseDate the song release date
+     * @param lyrics the song lyrics
+     * @param artist the song artist / the musician
+     * @param writer the songwriter(s)
+     * @param length the song length / duration
+     * @param ratings the song ratings
      */
     public Music(String title, String genre, String releaseDate, String lyrics, String artist, String writer, double length, double ratings) {
         this.title = title;
@@ -31,136 +31,134 @@ public class Music {
     }
 
     /**
-     * getter for the song title / name
-     * @return
+     * @return getter for the song title / name
      */
     public String getTitle() {
         return title;
     }
 
     /**
-     * setter for the song title / name
-     * @param title
+     * @param title setter for the song title / name
      */
     public void setTitle(String title) {
         this.title = title;
     }
 
     /**
-     * getter for the song genre
      * @return
+     * getter for the song genre
      */
     public String getGenre() {
         return genre;
     }
 
     /**
-     * setter for song genre
      * @param genre
+     * setter for song genre
      */
     public void setGenre(String genre) {
         this.genre = genre;
     }
 
     /**
-     * getter for the song release date
      * @return
+     * getter for the song release date
      */
     public String getReleaseDate() {
         return releaseDate;
     }
 
     /**
-     * setter for the song release date
      * @param releaseDate
+     * setter for the song release date
      */
     public void setReleaseDate(String releaseDate) {
         this.releaseDate = releaseDate;
     }
 
     /**
-     * getter for the song lyrics
      * @return
+     * getter for the song lyrics
      */
     public String getLyrics() {
         return lyrics;
     }
 
     /**
-     * setter for the song lyrics
      * @param lyrics
+     * setter for the song lyrics
      */
     public void setLyrics(String lyrics) {
         this.lyrics = lyrics;
     }
 
     /**
-     * getter for the song artist
      * @return
+     * getter for the song artist
      */
     public String getArtist() {
         return artist;
     }
 
     /**
-     * setter for the song artist
      * @param artist
+     * setter for the song artist
      */
     public void setArtist(String artist) {
         this.artist = artist;
     }
 
     /**
-     * getter for the songwriter(s)
      * @return
+     * getter for the songwriter(s)
      */
     public String getWriter() {
         return writer;
     }
 
     /**
-     * setter for the songwriter(s)
      * @param writer
+     * setter for the songwriter(s)
      */
     public void setWriter(String writer) {
         this.writer = writer;
     }
 
     /**
-     * getter for the song length
      * @return
+     * getter for the song length
      */
     public double getLength() {
         return length;
     }
 
     /**
-     * setter for the song length
      * @param length
+     * setter for the song length
      */
     public void setLength(double length) {
         this.length = length;
     }
 
     /**
-     * getter for the song ratings
      * @return
+     * getter for the song ratings
      */
     public double getRatings() {
         return ratings;
     }
 
     /**
-     * setter for the song ratings
      * @param ratings
+     * setter for the song ratings
      */
     public void setRatings(double ratings) {
         this.ratings = ratings;
     }
 
     /**
-     * main method
      * @param args
+     * main method
      */
     public static void main(String[] args) {}
 
