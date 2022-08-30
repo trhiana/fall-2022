@@ -10,14 +10,29 @@ public class Music {
     private double length, ratings;
 
     /**
-     * @param title the song title/name
-     * @param genre the song genre
-     * @param releaseDate the song release date
-     * @param lyrics the song lyrics
-     * @param artist the song artist / the musician
-     * @param writer the songwriter(s)
-     * @param length the song length / duration
-     * @param ratings the song ratings
+     * @param title
+     * the song title/name
+     *
+     * @param genre
+     * the song genre
+     *
+     * @param releaseDate
+     * the song release date
+     *
+     * @param lyrics
+     * the song lyrics
+     *
+     * @param artist
+     * the song artist / the musician
+     *
+     * @param writer
+     * the songwriter(s)
+     *
+     * @param length
+     * the song length / duration
+     *
+     * @param ratings
+     * the song ratings
      */
     public Music(String title, String genre, String releaseDate, String lyrics, String artist, String writer, double length, double ratings) {
         this.title = title;
@@ -31,14 +46,16 @@ public class Music {
     }
 
     /**
-     * @return getter for the song title / name
+     * @return
+     * getter for the song title / name
      */
     public String getTitle() {
         return title;
     }
 
     /**
-     * @param title setter for the song title / name
+     * @param title
+     * setter for the song title / name
      */
     public void setTitle(String title) {
         this.title = title;
