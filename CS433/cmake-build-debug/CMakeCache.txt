@@ -225,6 +225,15 @@ CS_IS_TOP_LEVEL:STATIC=ON
 CS_SOURCE_DIR:STATIC=/media/trhiana/Ashesi/fall-2022/CS433
 
 //Value Computed by CMake
+Mini_BINARY_DIR:STATIC=/media/trhiana/Ashesi/fall-2022/CS433/cmake-build-debug
+
+//Value Computed by CMake
+Mini_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Mini_SOURCE_DIR:STATIC=/media/trhiana/Ashesi/fall-2022/CS433
+
+//Value Computed by CMake
 Project_BINARY_DIR:STATIC=/media/trhiana/Ashesi/fall-2022/CS433/cmake-build-debug
 
 //Value Computed by CMake

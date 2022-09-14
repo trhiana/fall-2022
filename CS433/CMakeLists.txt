@@ -3,5 +3,5 @@ project(CS433)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CS433
-        hw.c)
+add_executable(433
+        wcat.c)

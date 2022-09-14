@@ -174,9 +174,33 @@ public class Music {
     }
 
     /**
+     * Description
+     * @param
+     * @return int
+     * source: https://github.com/dadjepon/ICP2022_Java/blob/main/Music.java
+     */
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 31 * hash + title.length();
+        hash = 31 * hash + (genre == null ? 0 : genre.hashCode());
+        hash = (int) (31 * hash + (length == 0 ? 0 : length));
+        return hash;
+    }
+
+    /**
      * @param args
      * main method
      */
-    public static void main(String[] args) {}
+    public static void main(String[] args) throws NoFileProvidedException {
+        Music song = new Music("Highway to Hell", "Hard rock", "27 July 1979", "", "AC/DC",
+                "Bon Scott, Angus Young, Malcolm Young", 3.27, 4.0);
+        String title = song.getTitle(), artist = song.getArtist();
+        System.out.println("Song: "+ title + " by "+artist);
+
+        if (song.lyrics == "") {
+            throw new NoFileProvidedException("Lyrics file does not exist!");
+        }
+    }
 
 }

@@ -41,35 +41,35 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /media/trhiana/Ashesi/fall-2022/CS433/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target CS433
+# Object build statements for EXECUTABLE target 433
 
 
 #############################################
-# Order-only phony target for CS433
+# Order-only phony target for 433
 
-build cmake_object_order_depends_target_CS433: phony || CMakeFiles/CS433.dir
+build cmake_object_order_depends_target_433: phony || CMakeFiles/433.dir
 
-build CMakeFiles/CS433.dir/hw.c.o: C_COMPILER__CS433_Debug /media/trhiana/Ashesi/fall-2022/CS433/hw.c || cmake_object_order_depends_target_CS433
-  DEP_FILE = CMakeFiles/CS433.dir/hw.c.o.d
+build CMakeFiles/433.dir/wcat.c.o: C_COMPILER__433_Debug /media/trhiana/Ashesi/fall-2022/CS433/wcat.c || cmake_object_order_depends_target_433
+  DEP_FILE = CMakeFiles/433.dir/wcat.c.o.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/CS433.dir
-  OBJECT_FILE_DIR = CMakeFiles/CS433.dir
+  OBJECT_DIR = CMakeFiles/433.dir
+  OBJECT_FILE_DIR = CMakeFiles/433.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CS433
+# Link build statements for EXECUTABLE target 433
 
 
 #############################################
-# Link the executable CS433
+# Link the executable 433
 
-build CS433: C_EXECUTABLE_LINKER__CS433_Debug CMakeFiles/CS433.dir/hw.c.o
+build 433: C_EXECUTABLE_LINKER__433_Debug CMakeFiles/433.dir/wcat.c.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/CS433.dir
+  OBJECT_DIR = CMakeFiles/433.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = CS433
-  TARGET_PDB = CS433.dbg
+  TARGET_FILE = 433
+  TARGET_PDB = 433.dbg
 
 
 #############################################
@@ -106,7 +106,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /media/trhiana/Ashesi/fall-2022/CS433/cmake-build-debug
 
-build all: phony CS433
+build all: phony 433
 
 # =============================================================================
 # Built-in targets

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CS433"
+			"path" : "433"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			]
 		}
 	],
-	"id" : "CS433::@6890427a1f51a3e7e1df",
+	"id" : "433::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -61,8 +61,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "CS433",
-	"nameOnDisk" : "CS433",
+	"name" : "433",
+	"nameOnDisk" : "433",
 	"paths" : 
 	{
 		"build" : ".",
@@ -83,7 +83,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "hw.c",
+			"path" : "wcat.c",
 			"sourceGroupIndex" : 0
 		}
 	],
