@@ -1,18 +1,20 @@
-'''
+"""
 Rhiana
 MATH212 Linear Algebra
 Homework 2
-'''
+Exercise 2 c.
+"""
 
-import numpy as np;
+from sympy import *
 
 def coalVals():
-  x1 = np.array([27.6, 3100, 250])
-  x2 = np.array([30.2, 6400, 360])
-  b = np.array([162, 23610, 1623])
-  matrix = np.c_[x1, x2]
-  ans = np.linalg.solve(matrix, b)
+    x1 = Matrix([27.6, 3100, 250])
+    x2 = Matrix([30.2, 6400, 360])
+    b = Matrix([162, 23610, 1623])
+    aug = x1.col_insert(1, x2)
+    aug = aug.col_insert(2, b)
+    ans = aug.rref()
 
-  print(matrix)
-  
+    print(ans)
+
 coalVals()
