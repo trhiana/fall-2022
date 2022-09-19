@@ -1,0 +1,3 @@
+/media/trhiana/Ashesi/fall-2022/CS433/Homework 3/cmake-build-debug/CMakeFiles/Homework_3.dir
+/media/trhiana/Ashesi/fall-2022/CS433/Homework 3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/trhiana/Ashesi/fall-2022/CS433/Homework 3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
