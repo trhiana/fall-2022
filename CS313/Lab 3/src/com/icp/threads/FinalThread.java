@@ -3,7 +3,8 @@ package com.icp.threads;
 /**
  * @author trhiana
  *
- * Creates two threads, one to print out "hello", and the other to print out "goodbye", both in finite counting loops.
+ * Creates two threads, one to print out "hello", and the other to print out "goodbye", both in finite counting loops
+ * with numbered outputs.
  * After creating the two loops, the main program should terminate.
  */
 public class FinalThread {
