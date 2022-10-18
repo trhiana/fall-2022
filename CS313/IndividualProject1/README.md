@@ -7,3 +7,5 @@ This is the first individual project for CS313 Intermediate Computer Programming
     - File I/O
 - Technologies used:
   - Java
+- How to run:
+  - Run the Main.java class
