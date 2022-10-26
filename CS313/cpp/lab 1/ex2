@@ -1,0 +1,8 @@
+casesSoldEveryday, bottlesPerCase, profitPerBottle
+profitPerDay, profitPerYear
+
+casesSoldEveryday = [user input]
+
+profitPerDay = casesSoldEveryday * bottlesPerCase * profitPerBottle
+
+profitPerYear = profitPerDay * 365
