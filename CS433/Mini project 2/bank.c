@@ -12,4 +12,6 @@ typedef struct account {} account;
 
 typedef struct transaction {} transaction;
 
-int main( int argc, char *argv [] ) {}
+int main( int argc, char *argv [] ) {
+
+}
