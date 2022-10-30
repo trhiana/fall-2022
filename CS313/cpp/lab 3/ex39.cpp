@@ -24,21 +24,31 @@ int main(void)
     cout << "Enter your choice. 1 = cylinder, 2 = sphere <Enter>: ";;
     cin >> choice;
 
-    cout << "Enter the radius and the height in Cm <Enter> ";
-    cin >> r >> h;
-    cout << endl;
-    cout << "Before I do any computation or call any function, I want to let you know that \n";
-    cout << "you have entered r = " << r << " and h = " << h << "." << endl;
-    cout << "I am planning to use inch, thus in the first function, I will convert r, and " << endl;
-    cout << "in the second one I will convert h \n";
-
     sideArea = side_area(r, h);
 
     if (choice == 1) {
+
+        cout << "Enter the radius and the height of the cylinder in Cm <Enter> ";
+        cin >> r >> h;
+        cout << endl;
+        cout << "Before I do any computation or call any function, I want to let you know that \n";
+        cout << "you have entered r = " << r << " and h = " << h << "." << endl;
+        cout << "I am planning to use inch, thus in the first function, I will convert r, and " << endl;
+        cout << "in the second one I will convert h \n";
+
         cout << "The side area of the cylinder is " << sideArea << " inch-sqr. \n";
         cout <<  "The total area of the cylinder is " << area(r, sideArea) << " inch-sqr. \n";
         cout << "The volume of the cylinder is " << volume(r, h) << " inch-sqr. \n";
     } else if (choice == 2) {
+
+        cout << "Enter the radius and the height of the sphere in Cm <Enter> ";
+        cin >> r >> h;
+        cout << endl;
+        cout << "Before I do any computation or call any function, I want to let you know that \n";
+        cout << "you have entered r = " << r << " and h = " << h << "." << endl;
+        cout << "I am planning to use inch, thus in the first function, I will convert r, and " << endl;
+        cout << "in the second one I will convert h \n";
+
         cout << "The surface area of the sphere is " << area(r) << " inch-sqr. \n";
         cout << "The volume of the sphere is " << volume(r) << " inch-sqr. \n";
     } else {
